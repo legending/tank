@@ -19,7 +19,7 @@ public class BulletNewMsg extends Msg {
 	int x, y;
 	Dir dir;
 	Group group;
-	
+
 	public BulletNewMsg(Bullet bullet) {
 		this.playerID = bullet.getPlayerId();
 		this.id = bullet.getId();
@@ -28,23 +28,23 @@ public class BulletNewMsg extends Msg {
 		this.dir = bullet.getDir();
 		this.group = bullet.getGroup();
 	}
-	
+
 	public BulletNewMsg() {
-		
+
 	}
-	
+
 	@Override
 	public byte[] toBytes() {
 		ByteArrayOutputStream baos = null;
-		DataOutputStream dos = null; 
+		DataOutputStream dos = null;
 		byte[] bytes = null;
 		try {
 			baos = new ByteArrayOutputStream();
 			dos = new DataOutputStream(baos);
-			//先写主战坦克id
+			//鍏堝啓涓绘垬鍧﹀厠id
 			dos.writeLong(this.playerID.getMostSignificantBits());
 			dos.writeLong(this.playerID.getLeastSignificantBits());
-			//写子弹id
+			//鍐欏瓙寮筰d
 			dos.writeLong(id.getMostSignificantBits());
 			dos.writeLong(id.getLeastSignificantBits());
 			dos.writeInt(x);
@@ -71,10 +71,10 @@ public class BulletNewMsg extends Msg {
 				e.printStackTrace();
 			}
 		}
-		
+
 		return bytes;
 	}
-	
+
 	@Override
 	public void parse(byte[] bytes) {
 		DataInputStream dis = new DataInputStream(new ByteArrayInputStream(bytes));
@@ -94,15 +94,15 @@ public class BulletNewMsg extends Msg {
 				e.printStackTrace();
 			}
 		}
-		
-		
+
+
 	}
-	
+
 	@Override
 	public void handle() {
 		if (this.playerID.equals(TankFrame.INSTANCE.getMainTank().getId()))
 			return;
-		
+
 		Bullet bullet = new Bullet(this.playerID, x, y, dir, group, TankFrame.INSTANCE);
 		bullet.setId(this.id);
 		TankFrame.INSTANCE.addBullet(bullet);
@@ -112,14 +112,14 @@ public class BulletNewMsg extends Msg {
 	public String toString() {
 		StringBuilder builder = new StringBuilder();
 		builder.append(this.getClass().getName())
-			   .append("[")
-			   .append("playerid=" + playerID + " | ")
-			   .append("uuid=" + id + " | ")
-			   .append("x=" + x + " | ")
-			   .append("y=" + y + " | ")
-			   .append("dir=" + dir + " | ")
-			   .append("group=" + group + " | ")
-			   .append("]");
+				.append("[")
+				.append("playerid=" + playerID + " | ")
+				.append("uuid=" + id + " | ")
+				.append("x=" + x + " | ")
+				.append("y=" + y + " | ")
+				.append("dir=" + dir + " | ")
+				.append("group=" + group + " | ")
+				.append("]");
 		return builder.toString();
 	}
 
@@ -128,6 +128,6 @@ public class BulletNewMsg extends Msg {
 		return MsgType.BulletNew;
 	}
 
-	
+
 
 }

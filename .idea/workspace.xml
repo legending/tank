@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9fa5cc95-a73a-45f2-8d05-3617a734918e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/tank/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tank/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tank/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tank/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tank/.idea/libraries/Maven__io_netty_netty_all_4_1_9_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tank/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tank/.idea/libraries/Maven__org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tank/.idea/libraries/Maven__org_junit_platform_junit_platform_commons_1_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tank/.idea/libraries/Maven__org_opentest4j_opentest4j_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tank/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tank/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tank/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tank/tank.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/tank/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/.settings/org.eclipse.core.resources.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/tank/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/src/com/mashibing/tank/net/BulletNewMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/tank/src/com/mashibing/tank/net/BulletNewMsg.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tank/src/test/ImageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tank/src/test/ImageTest.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1cinpSErY7z6Y292WyoYPSGh4Fm" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9fa5cc95-a73a-45f2-8d05-3617a734918e" name="Default Changelist" comment="" />
+      <created>1591020463516</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591020463516</updated>
+      <workItem from="1591020464880" duration="49000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
